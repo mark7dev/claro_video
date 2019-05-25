@@ -1,0 +1,23 @@
+.content__container {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+}
+
+.card {
+    margin: 5px;
+}
+
+.search__container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+
