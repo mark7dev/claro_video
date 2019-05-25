@@ -23,7 +23,6 @@ export default class Item extends Component {
         request
         .get(APIItem)
         .then(response => {
-            console.log(response.body.response.group.common);
             this.setState({ 
                 item: response.body.response.group.common,
                 ranking: response.body.response.group.common.ranking,
